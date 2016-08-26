@@ -1,0 +1,43 @@
+@charset "utf-8";
+/* CSS 初始化 */
+html, body, div, ul, li, p, dl, dt, dd, form, table, tr, td, h1, h2, h3, h4, h5, h6, img, a, span, b, strong, em, i, input, label, textarea, select, option {
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    list-style: none;
+}
+
+img {
+    border: 0 none;
+    vertical-align: baseline;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+    cursor: pointer;
+}
+
+body{ font-size: 12px; font-family: "微软雅黑"; background: #e3e3e3; color: #828282;}
+
+.clearfix {
+    *zoom: 1;
+}
+
+.clearfix:after {
+    content: ".";
+    height: 0;
+    clear: both;
+    visibility: hidden;
+    display: block;
+}
+/*主体*/
+.box{ width: 179px; height: auto; margin: 50px auto 0;}
+.box h3{ width: 173px; height: 28px; line-height: 28px; font-size: 16px; font-weight: 500; padding:37px 0 0 6px;}
+.box input{ display: block; width: 169px; height: 28px; line-height: 28px; border: 1px #bcbcbc solid; margin-left: 1px; padding-left: 7px; font-size: 12px; color: #d8d8d8; outline: none;}
+.box-main{ width: 179px; height: auto; margin-top: 8px; background: url("../images/bt.png") no-repeat left bottom; padding-bottom: 18px; }
+.box-main ul{ width: 169px; height: auto; border: 1px solid #d1cfd0; border-bottom:  0 none; background: #fff; padding: 5px 0 9px 8px;}
+.box-main li{ float: left; position: relative; width: auto; height: 25px; line-height: 25px; margin:5px 4px 0 0; padding: 0 15px 0 6px; background: #bee2f0; _display: inline; white-space: normal;}
+.box-main i{ position: absolute;right: 4px; top:6px;width: 7px; height: 7px;line-height: 7px; text-align: center;font-size: 12px; font-style: normal; cursor: pointer; }
